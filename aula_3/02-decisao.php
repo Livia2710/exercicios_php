@@ -69,9 +69,37 @@
         <li>Exibir a resposta da condicional simples com o comando echo no modo 1</li>
         <li>Exibir a resposta da condicional simples com o comando echo no modo 2</li>
     </ul>
+    <hr>
 
     <!-- Criar aqui seu programa PHP -->
+
+                <!-- Modo 1 -->
+                    <?php
+
+
+                        $a = 5;
     
+
+                        if( $a > 1) { //true
+                        echo " $a é maior que 1";
+                        }
+
+                    ?>
+
+                    <br>
+
+                     <!-- Modo 2 -->
+                        <?php
+
+
+                        $a = 5;
+
+
+                        if( $a > 1)  //true
+                        echo " $a é maior que 1";
+                        
+
+                        ?>
     
     <hr>
     
@@ -88,7 +116,7 @@
     </ul>
     
     <br>
-    <h4>&nbsp;if ( comparação ) {</h4>
+    <h4>&nbsp;if ( comparação ) </h4>
     <h4>&emsp;comando para comparação verdadeira</h4>
     <h4>&emsp;Se necessário aninhar, usar if simples ou composto</h4>
     <h4>&nbsp;else {</h4>
@@ -121,6 +149,25 @@
     <hr>
 
     <!-- Criar aqui seu programa PHP -->
+
+    <?php
+
+
+            $produto = 'Ultrabook ASUS';
+            $EstoqueAtual  = 0;
+            $EstoqueMinimo = 14;
+
+            echo "<h3> $produto </h3>";
+
+            if($EstoqueAtual < $EstoqueMinimo ) { //true
+             echo " <div class= 'repor'>É necessário comprar </div>";
+            }
+
+            else {
+            echo" <div class= 'ok'> Estoque Ok </div>";
+            }
+
+?>
 
     
     <hr>
@@ -168,6 +215,35 @@
     <hr>
     
     <!-- Criar aqui seu programa PHP -->
+
+            <?php
+
+            $escolha = '1';
+            $produto1 = '1';
+            $produto2 = '2';
+            $produto3 = '3';
+
+            if ( $escolha === $produto1 ) {
+
+            echo "Sua esfiha está sendo preparada";
+
+        }elseif ( $escolha === $produto2 ) {
+        
+            echo "Seu pastel está sendo preparado";
+
+        }
+
+        elseif ( $escolha === $produto3) {
+            echo "Sua pizza está sendo preparada";
+
+        }
+        else {
+           echo "Está opção é inválida";
+
+        }
+
+        ?> 
+
     
     <hr>
 
@@ -202,6 +278,25 @@
     <hr>
 
     <!-- Criar aqui seu programa PHP -->
+
+   <?php
+
+    // switch (  ) {
+    //     case 1:
+    //         echo " Atender primeira opção";
+    //      break;
+    //     case 2: 
+    //         echo " Atender primeira opção";
+    //      break;
+    //     case 3: 
+    //         echo " Atender primeira opção";
+    //      break;
+    //     default:
+    //     echo " Atender primeira opção";
+    //      break;
+    // }
+
+    ?>
     
     
     <!-- Rodapé -->

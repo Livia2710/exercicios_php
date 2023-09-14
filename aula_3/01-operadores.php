@@ -208,7 +208,7 @@
                             $a = 10;
                             $b  = 5;
         
-                            echo $a **= $b;
+                            echo number_format($a **= $b, 2, ",",".");
 
                         ?>
                             
@@ -416,7 +416,7 @@
                     <tr>
                         <td>$a !== $b</td>
                         <td>
-                        <?php
+                       <?php
 
 
                             $a = 10;
@@ -429,7 +429,7 @@
                             else {
                             echo" $a  !==  $b é Igual";
                             }
-
+ 
                             ?>
                         </td>
                         <td>$a recebe 10 e <br> $b recebe 5</td>

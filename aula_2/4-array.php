@@ -36,7 +36,7 @@
       print_r($arr);
       echo "<br>";
       print_r($arr[1]);
-      echo "<br><p> O Segundo valor da lsita é: $arr[1]</p>";
+      echo "<br><p> O Segundo valor da lista é: $arr[1]</p>";
 
     ?>
        
