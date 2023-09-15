@@ -281,8 +281,12 @@
 
    <?php
     
+    $escolha = '1';
+            $produto1 = '1';
+            $produto2 = '2';
+            $produto3 = '3';
 
-    switch ( $var1) {
+    switch ($escolha) {
         case 1:
             echo " Atender a primeira opção";
          break;
