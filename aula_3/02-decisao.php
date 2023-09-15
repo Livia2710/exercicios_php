@@ -280,21 +280,22 @@
     <!-- Criar aqui seu programa PHP -->
 
    <?php
+    
 
-    // switch (  ) {
-    //     case 1:
-    //         echo " Atender primeira opção";
-    //      break;
-    //     case 2: 
-    //         echo " Atender primeira opção";
-    //      break;
-    //     case 3: 
-    //         echo " Atender primeira opção";
-    //      break;
-    //     default:
-    //     echo " Atender primeira opção";
-    //      break;
-    // }
+    switch ( $var1) {
+        case 1:
+            echo " Atender a primeira opção";
+         break;
+        case 2: 
+            echo " Atender a segunda opção";
+         break;
+        case 3: 
+            echo " Atender a terceira opção";
+         break;
+        default:
+        echo "  avisar usuário";
+         break;
+    }
 
     ?>
     
