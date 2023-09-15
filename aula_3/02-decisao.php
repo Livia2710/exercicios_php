@@ -161,6 +161,8 @@
 
             if($EstoqueAtual < $EstoqueMinimo ) { //true
              echo " <div class= 'repor'>É necessário comprar </div>";
+             echo "<br>";
+             echo "<p><mark >Urgente</mark></p>";
             }
 
             else {
@@ -218,7 +220,7 @@
 
             <?php
 
-            $escolha = '1';
+            $escolha = '4';
             $produto1 = '1';
             $produto2 = '2';
             $produto3 = '3';
@@ -281,10 +283,10 @@
 
    <?php
     
-    $escolha = '1';
-            $produto1 = '1';
-            $produto2 = '2';
-            $produto3 = '3';
+    // $escolha = '1';
+    //         $produto1 = '1';
+    //         $produto2 = '2';
+    //         $produto3 = '3';
 
     switch ($escolha) {
         case 1:
