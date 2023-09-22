@@ -135,8 +135,10 @@
             // int: valor numérico inteiro
             // string: caracteres
 
-
-            // 5ª Digitação (Aqui)
+           function calculaMedia(float $n1, float $n2,): float {
+            $media = ($n1 + $n2)/2;
+            return $media;
+           }
             
 
         ?>
