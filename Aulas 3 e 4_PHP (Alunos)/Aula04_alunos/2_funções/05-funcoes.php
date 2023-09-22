@@ -17,10 +17,16 @@
         <!-- Função Dados do autor -->
         <?php
 
-            // 1ª Digitação (Aqui)
+            function dadosAutor() {
+                echo "<div>";
+                echo "<p>Mattia Binotto</p>";
+                echo "<p>Mattia.binotto@ferrari.f1</p>";
+                echo "</div>";
+            }
 
         ?>
 
+         
         <section>
             <h3>Chamada de sub-rotina</h3>
             <?=dadosAutor()?>
@@ -42,7 +48,9 @@
 
         ?>
     
-            <!-- 2ª Digitação (Aqui) -->
+         <p>Estamos no curso <?=dadosCurso()?></p>
+         <p><?=dadosCurso()?> é ministrado no SENAI</p>
+
 
         <hr>
         
@@ -51,7 +59,10 @@
         <!-- Função Soma -->
         <?php
 
-            // 3ª Digitação (Aqui)
+            function soma ($valor1 ,$valor2, $valor3=0) {
+                $total = $valor1 + $valor2 + $valor3;
+                return $total;
+            }
 
         ?>
     
@@ -102,7 +113,9 @@
 
         <?php
 
-            // 4ª Digitação (Aqui)
+            $formataPreco = function($valor) {
+                return "R$".number_format($valor,2,".",".");
+            }
 
         ?>
 
